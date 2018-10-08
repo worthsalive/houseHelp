@@ -1,0 +1,155 @@
+html{
+	margin:0;
+	font-size: 100%;
+	font-family: 'Lato', sans-serif;
+	background: #ccc;
+    background-image: url(../img/bghouse.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container .admin{
+    background:transparent !important;
+}
+body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+.justify{
+    text-align: justify;
+}
+footer .footer,.footer{
+    background:#476579;
+    padding:10px;
+    color:#ccc;
+}
+.admin footer .footer{
+    background:#456789 !important;
+}
+.hint{
+    color:#555;
+    font-family: calibri cursive;
+    padding:10px;
+}
+.navy{
+    background-color:#557789 !important;
+}
+.black{
+    background-color:#000 !important;
+}
+.gray-text{color:gray;}
+.fade-white{
+    background-color: rgba(255,255,255,.7) !important;
+}
+.white-text{
+    color:#eee !important;
+}
+.fade-black{
+    background-color: rgba(0,0,0,.7) !important;
+}
+
+.center-text{text-align: center !important;}
+.right{text-align: right}
+.left{text-align: left}
+table td:first-child{
+    text-align:justify;
+}
+
+.notice-card *{
+    font-family: arial black;
+}
+.form-group label span{
+    color:#ff6600;
+    font-weight: bolder;
+}
+
+/*STYLEING MY CUSTOM SIDE NAVE*/
+.admin-sidenav{
+   top:150px !important; 
+}
+.nav-title{
+    padding:5px;
+    font-weight: bold;
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+title{
+    padding:10px;
+    
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    background:#515151 !important;
+    color: #f1f1f1;
+}
+.sidenav figure{
+    background:#515151;
+    border-color:#222;
+}
+.thumb-title{
+    text-align: center;
+    color:#eee;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+/* Style page content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*STYLING MY CUSTOM SIDE NAVE*/

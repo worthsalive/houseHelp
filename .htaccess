@@ -1,0 +1,10 @@
+
+	
+#1---- Prevent directory file listing in all of your folders ----
+
+#IndexIgnore * 
+
+#Hides the .php and .html url extension
+Options  +MultiViews 
+
+
